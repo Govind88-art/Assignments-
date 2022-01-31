@@ -1,0 +1,12 @@
+# Day 1 - python assignment 
+#multiple values as input and print sum of them
+
+
+a = int(input('Enter first no: '))
+b = int(input('Enter the second no: '))
+c=  int(input('Enter the third no: '))
+d=  int(input('Enter the other no: '))
+e=  int(input('Enter the other no: '))
+f=  int(input('Enter the other no: '))
+g=  int(input('Enter the other no: '))
+print('Sum:', a + b + c + d + e + f + g )
