@@ -10,3 +10,18 @@ e=  int(input('Enter the other no: '))
 f=  int(input('Enter the other no: '))
 g=  int(input('Enter the other no: '))
 print('Sum:', a + b + c + d + e + f + g )
+
+
+
+
+or  
+
+
+
+x = [int(i) for i in input('Enter multiple  values: ').split()]
+
+sum = 0
+for j in x:
+  sum += j # sum = sum + j
+
+print(sum)
