@@ -1,0 +1,9 @@
+from collections import Counter
+s = 'welcome'
+d = dict(Counter(s))
+print(d)
+
+print(max(d, key = d.get))
+
+val = d.values()
+print(max(val))
